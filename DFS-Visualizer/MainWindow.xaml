@@ -1,0 +1,39 @@
+﻿<Window x:Class="finall.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:finall"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="canvas" Margin="0,0,-0.4,0" Background="White">
+        <TextBox x:Name="InputGraph" HorizontalAlignment="Left" Height="330" Margin="23,43,0,0" Text="0 1&#xA;0 2&#xA;0 3&#xA;1 4&#xA;1 5&#xD;&#xA;2 6&#xD;&#xA;3 7&#xD;&#xA;3 8&#xD;&#xA;&#xA;" VerticalAlignment="Top" Width="59" FontWeight="Bold" FontSize="16" AcceptsReturn="True" TextWrapping="Wrap" TextChanged="InputGraph_TextChanged" Background="#FF7D7D7D" FontFamily="Elephant"/>
+        <TextBox x:Name="Node" HorizontalAlignment="Left" Height="38" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" Width="63" Margin="87,43,0,0"  TextAlignment="Center" FontSize="20" FontWeight="Bold" Background="#FF7D7D7D" FontFamily="Elephant"/>
+        <TextBox x:Name="Edge" HorizontalAlignment="Left" Height="38" Margin="87,86,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" Width="63" TextAlignment="Center" FontSize="20" FontWeight="Bold" Background="#FF7D7D7D" FontFamily="Elephant"/>
+        <Button Content="START" HorizontalAlignment="Left" Margin="87,134,0,0" VerticalAlignment="Top" Width="144" Height="36" Click="Button_Click" FontSize="20" FontWeight="Bold" Background="#FFE42727" FontFamily="Elephant"/>
+        <Label Content="node" HorizontalAlignment="Left" Margin="172,43,0,0" VerticalAlignment="Top" Height="38" Width="59" FontSize="20" FontWeight="Bold" FontFamily="Elephant"/>
+        <Label Content="edge" HorizontalAlignment="Left" Margin="172,86,0,0" VerticalAlignment="Top" Height="38" Width="59" FontSize="20" FontWeight="Bold" FontFamily="Elephant"/>
+        <Ellipse x:Name="N6" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="719,135,0,0"/>
+        <Ellipse x:Name="N8" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="662,295,0,0"/>
+        <Ellipse x:Name="N3" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="559,338,0,0"/>
+        <Ellipse x:Name="N5" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="440,295,0,0" />
+        <Ellipse x:Name="N10" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="377,219,0,0"/>
+        <Ellipse x:Name="N7" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="440,60,0,0"/>
+        <Ellipse x:Name="N4" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="719,219,0,0"/>
+        <Ellipse x:Name="N9" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="662,60,0,0"/>
+        <Ellipse x:Name="N2" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="377,135,0,0"/>
+        <Ellipse x:Name="N1" Fill="#FF070F3D" HorizontalAlignment="Left" Height="35" Stroke="Black" VerticalAlignment="Top" Width="35" Margin="559,24,0,0"/>
+        <Label x:Name="L1" Content="0" HorizontalAlignment="Left" Margin="568,-9,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Height="33" />
+        <Label x:Name="L4" Content="3" HorizontalAlignment="Left" Margin="754,219,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="25"/>
+        <Label x:Name="L8" Content="7" HorizontalAlignment="Left" Margin="697,320,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="25"/>
+        <Label x:Name="L7" Content="6" HorizontalAlignment="Left" Margin="430,33,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="L6" Content="5" HorizontalAlignment="Left" Margin="754,118,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="25"/>
+        <Label x:Name="L5" Content="4" HorizontalAlignment="Left" Margin="430,320,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="25"/>
+        <Label x:Name="L3" Content="2" HorizontalAlignment="Left" Margin="568,365,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Height="37" Width="26"/>
+        <Label x:Name="L2" Content="1" HorizontalAlignment="Left" Margin="352,134,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="25"/>
+        <Label x:Name="L9" Content="8" HorizontalAlignment="Left" Margin="687,34,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="L10" Content="9" HorizontalAlignment="Left" Margin="351,241,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="Result" Content="Result will show here" HorizontalAlignment="Left" Margin="87,208,0,0" VerticalAlignment="Top" Height="89" Width="263" FontSize="20" FontFamily="Elephant"/>
+
+    </Grid>
+</Window>

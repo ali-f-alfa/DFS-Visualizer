@@ -1,0 +1,15 @@
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall.csprojAssemblyReference.cache
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\MainWindow.g.cs
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\App.g.cs
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall_MarkupCompile.cache
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall_MarkupCompile.lref
+C:\Users\ali\Desktop\python\discrete\finall project\finall\bin\Debug\finall.exe.config
+C:\Users\ali\Desktop\python\discrete\finall project\finall\bin\Debug\finall.exe
+C:\Users\ali\Desktop\python\discrete\finall project\finall\bin\Debug\finall.pdb
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\MainWindow.baml
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall.g.resources
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall.Properties.Resources.resources
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall.csproj.GenerateResource.cache
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall.csproj.CoreCompileInputs.cache
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall.exe
+C:\Users\ali\Desktop\python\discrete\finall project\finall\obj\Debug\finall.pdb
